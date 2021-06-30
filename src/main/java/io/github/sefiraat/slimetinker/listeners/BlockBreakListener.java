@@ -72,7 +72,7 @@ public class BlockBreakListener implements Listener {
             if (matPropertyHead.equals(IDStrings.DURALIUM) || matPropertyRod.equals(IDStrings.TITANIUM)) { // Run duraluim as it will flag the duraliumCheck meaning we can bypass durability checks
                 BlockBreakEvents.headDuralium(friend);
             } else {
-                event.getPlayer().sendMessage(ThemeUtils.WARNING + "Your tool is broken, you should really repair it!");
+                event.getPlayer().sendMessage(ThemeUtils.WARNING + "你的工具已经破损，你应该修复它!");
                 event.setCancelled(true);
                 return;
             }

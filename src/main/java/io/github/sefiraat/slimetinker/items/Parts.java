@@ -82,8 +82,8 @@ public final class Parts {
                     "PART_SHOVEL_HEAD_DUMMY",
                     SkullTextures.PART_SHOVEL_HEAD,
                     ThemeUtils.ThemeItemType.CAST,
-                    "Part: Shovel Head",
-                    ThemeUtils.PASSIVE + "A cast shovel head."
+                    "零件:铲头",
+                    ThemeUtils.PASSIVE + "用于制造铲子"
             );
 
     public static final SlimefunItemStack PART_PICKAXE_HEAD_DUMMY =
@@ -91,8 +91,8 @@ public final class Parts {
                     "PART_PICKAXE_HEAD_DUMMY",
                     SkullTextures.PART_PICKAXE_HEAD,
                     ThemeUtils.ThemeItemType.CAST,
-                    "Part: Pickaxe Head",
-                    ThemeUtils.PASSIVE + "A cast pickaxe head."
+                    "零件:镐头",
+                    ThemeUtils.PASSIVE + "用于制造镐子"
             );
 
     public static final SlimefunItemStack PART_AXE_HEAD_DUMMY =
@@ -100,8 +100,8 @@ public final class Parts {
                     "PART_AXE_HEAD_DUMMY",
                     SkullTextures.PART_AXE_HEAD,
                     ThemeUtils.ThemeItemType.CAST,
-                    "Part: Axe Head",
-                    ThemeUtils.PASSIVE + "A cast axe head."
+                    "零件:斧头",
+                    ThemeUtils.PASSIVE + "用于制造斧头"
             );
 
     public static final SlimefunItemStack PART_HOE_HEAD_DUMMY =
@@ -109,8 +109,8 @@ public final class Parts {
                     "PART_HOE_HEAD_DUMMY",
                     SkullTextures.PART_HOE_HEAD,
                     ThemeUtils.ThemeItemType.CAST,
-                    "Part: Hoe Head",
-                    ThemeUtils.PASSIVE + "A cast hoe head."
+                    "零件:锄头",
+                    ThemeUtils.PASSIVE + "用于制造锄头"
             );
 
     public static final SlimefunItemStack PART_SWORD_BLADE_DUMMY =
@@ -118,8 +118,8 @@ public final class Parts {
                     "PART_SWORD_BLADE_DUMMY",
                     SkullTextures.PART_SWORD_BLADE,
                     ThemeUtils.ThemeItemType.CAST,
-                    "Part: Sword Blade",
-                    ThemeUtils.PASSIVE + "A cast sword blade."
+                    "零件:剑刃",
+                    ThemeUtils.PASSIVE + "用于制造剑"
             );
 
     public static final SlimefunItemStack PART_TOOL_ROD_DUMMY =
@@ -127,8 +127,8 @@ public final class Parts {
                     "PART_TOOL_ROD_DUMMY",
                     SkullTextures.PART_TOOL_ROD,
                     ThemeUtils.ThemeItemType.CAST,
-                    "Part: Tool Rod",
-                    ThemeUtils.PASSIVE + "A cast tool rod."
+                    "零件:工具杆",
+                    ThemeUtils.PASSIVE + "用于制造工具"
             );
 
     public static final SlimefunItemStack PART_BINDING_DUMMY =
@@ -136,8 +136,8 @@ public final class Parts {
                     "PART_BINDING_DUMMY",
                     SkullTextures.PART_BINDING,
                     ThemeUtils.ThemeItemType.CAST,
-                    "Part: Binding",
-                    ThemeUtils.PASSIVE + "A binging to hold parts together."
+                    "零件:物品绑定",
+                    ThemeUtils.PASSIVE + "将物品绑定"
             );
 
     public static final SlimefunItemStack PART_REPAIR_KIT_DUMMY =
@@ -145,8 +145,8 @@ public final class Parts {
                     "PART_REPAIR_KIT_DUMMY",
                     Material.CHEST_MINECART,
                     ThemeUtils.ThemeItemType.CAST,
-                    "Part: Repair Kit",
-                    ThemeUtils.PASSIVE + "Repairs broken items in the Repair Bench."
+                    "零件:修理包",
+                    ThemeUtils.PASSIVE + "在修理台上修理损坏物品"
             );
 
     public static final SlimefunItemStack PART_AXE_HEAD =
@@ -217,8 +217,8 @@ public final class Parts {
                     "PART_BINDING_STRING",
                     SkullTextures.PART_BINDING,
                     ThemeUtils.ThemeItemType.PART,
-                    "String Binding",
-                    ThemeUtils.PASSIVE + "A binding made of string."
+                    "线装订物",
+                    ThemeUtils.PASSIVE + "一种用线制造成的捆扎物"
             );
 
     public static final SlimefunItemStack PART_BINDING_VINE =
@@ -226,8 +226,8 @@ public final class Parts {
                     "PART_BINDING_VINE",
                     SkullTextures.PART_BINDING,
                     ThemeUtils.ThemeItemType.PART,
-                    "Vine Binding",
-                    ThemeUtils.PASSIVE + "A binding made of vines."
+                    "藤蔓装订物",
+                    ThemeUtils.PASSIVE + "一种用藤蔓制造成的捆扎物"
             );
 
     public static final SlimefunItemStack PART_BINDING_ROOT_RED =
@@ -235,8 +235,8 @@ public final class Parts {
                     "PART_BINDING_ROOT_RED",
                     SkullTextures.PART_BINDING,
                     ThemeUtils.ThemeItemType.PART,
-                    "Crimson Root Binding",
-                    ThemeUtils.PASSIVE + "A binding made of crimson roots."
+                    "绯红菌索装订物",
+                    ThemeUtils.PASSIVE + "一种用绯红菌索制造成的捆扎物"
             );
 
     public static final SlimefunItemStack PART_BINDING_ROOT_GREEN =
@@ -244,8 +244,8 @@ public final class Parts {
                     "PART_BINDING_ROOT_GREEN",
                     SkullTextures.PART_BINDING,
                     ThemeUtils.ThemeItemType.PART,
-                    "Warped Root Binding",
-                    ThemeUtils.PASSIVE + "A binding made of warped roots."
+                    "诡异菌索装订物",
+                    ThemeUtils.PASSIVE + "一种用诡异菌索制造成的捆扎物"
             );
 
     public static final SlimefunItemStack PART_BINDING_VINE_RED =
@@ -253,8 +253,8 @@ public final class Parts {
                     "PART_BINDING_VINE_RED",
                     SkullTextures.PART_BINDING,
                     ThemeUtils.ThemeItemType.PART,
-                    "Weeping Vine Binding",
-                    ThemeUtils.PASSIVE + "A binding made of weeping vines."
+                    "垂泪藤装订物",
+                    ThemeUtils.PASSIVE + "一种用垂泪藤制造成的捆扎物"
             );
 
     public static final SlimefunItemStack PART_BINDING_VINE_GREEN =
@@ -262,8 +262,8 @@ public final class Parts {
                     "PART_BINDING_VINE_GREEN",
                     SkullTextures.PART_BINDING,
                     ThemeUtils.ThemeItemType.PART,
-                    "Twisted Vine Binding",
-                    ThemeUtils.PASSIVE + "A binding made of twisted vines."
+                    "缠怨藤装订物",
+                    ThemeUtils.PASSIVE + "一种用缠怨藤制造成的捆扎物"
             );
 
     public static final SlimefunItemStack PART_BINDING_GENERAL_DISPLAY =
@@ -271,10 +271,10 @@ public final class Parts {
                     "PART_BINDING_GENERAL_DISPLAY",
                     Material.STRING,
                     ThemeUtils.ThemeItemType.CRAFTING,
-                    "Binding Material",
-                    ThemeUtils.PASSIVE + "A material suitable to make binding from.",
-                    ThemeUtils.PASSIVE + "This is not JUST string, experiment with",
-                    ThemeUtils.PASSIVE + "similar materials."
+                    "装订材料",
+                    ThemeUtils.PASSIVE + "此材料是一种适合做装订的材料",
+                    ThemeUtils.PASSIVE + "",
+                    ThemeUtils.PASSIVE + ""
             );
 
 

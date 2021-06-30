@@ -31,11 +31,11 @@ public class PartTemplate extends UnplaceableBlock {
     public List<String> getLore(String material) {
         List<String> list = new ArrayList<>();
         list.add("");
-        list.add(ThemeUtils.PASSIVE + "A tool part. Useless on it's own but can");
-        list.add(ThemeUtils.PASSIVE + "be made into something greater at the");
-        list.add(ThemeUtils.PASSIVE + "Tinker's table.");
+        list.add(ThemeUtils.PASSIVE + "工具零件,他本是没用的");
+        list.add(ThemeUtils.PASSIVE + "但他可以制作出更好的东西");
+        list.add(ThemeUtils.PASSIVE + "");
         list.add("");
-        list.add(ThemeUtils.CLICK_INFO + "Material : " + ChatColor.of(CMManager.getById(material).getColorHex()) + ThemeUtils.toTitleCase(material));
+        list.add(ThemeUtils.CLICK_INFO + "材料: " + ChatColor.of(CMManager.getById(material).getColorHex()) + ThemeUtils.toTitleCase(material));
         return list;
     }
 

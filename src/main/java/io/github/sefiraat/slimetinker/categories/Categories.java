@@ -15,43 +15,43 @@ public final class Categories {
 
     public static final MultiCategory MAIN = new MultiCategory(SlimeTinker.inst().getKeys().getCategoryMain(), new CustomItem(
             SkullItem.fromBase64(SkullTextures.CAT_MAIN),
-            ThemeUtils.MAIN + "SlimeTinker"
+            ThemeUtils.MAIN + "SlimeTinker(匠魂)"
     ));
     public static final SubCategory WORKSTATIONS = new SubCategory(SlimeTinker.inst().getKeys().getCategoryWorkstations(), MAIN, new CustomItem(
             SkullItem.fromBase64(SkullTextures.CAT_MAIN),
-            ThemeUtils.MAIN + "Workstations"
+            ThemeUtils.MAIN + "制作方块"
     ));
     public static final SubCategory MATERIALS = new SubCategory(SlimeTinker.inst().getKeys().getCategoryMaterials(), MAIN, new CustomItem(
             SkullItem.fromBase64(SkullTextures.CAT_MATERIALS),
-            ThemeUtils.MAIN + "Materials"
+            ThemeUtils.MAIN + "材料"
     ));
     public static final SubCategory ALLOYS = new SubCategory(SlimeTinker.inst().getKeys().getCategoryAlloys(), MAIN, new CustomItem(
             SkullItem.fromBase64(SkullTextures.CAT_ALLOYS),
-            ThemeUtils.MAIN + "Alloy Metals"
+            ThemeUtils.MAIN + "合金金属"
     ));
     public static final SubCategory PROPERTIES = new SubCategory(SlimeTinker.inst().getKeys().getCategoryProperties(), MAIN, new CustomItem(
             SkullItem.fromBase64(SkullTextures.CAT_PROPERTIES),
-            ThemeUtils.MAIN + "Metal Props"
+            ThemeUtils.MAIN + "合金模块"
     ));
     public static final SubCategory CASTS = new SubCategory(SlimeTinker.inst().getKeys().getCategoryCasts(), MAIN, new CustomItem(
             SkullItem.fromBase64(SkullTextures.CAT_CASTS),
-            ThemeUtils.MAIN + "Casts"
+            ThemeUtils.MAIN + "铸造模块"
     ));
     public static final SubCategory PARTS = new SubCategory(SlimeTinker.inst().getKeys().getCategoryParts(), MAIN, new CustomItem(
             SkullItem.fromBase64(SkullTextures.CAT_PARTS),
-            ThemeUtils.MAIN + "Parts"
+            ThemeUtils.MAIN + "其他物品"
     ));
     public static final SubCategory TOOLS = new SubCategory(SlimeTinker.inst().getKeys().getCategoryTools(), MAIN, new CustomItem(
             Material.DIAMOND_SWORD,
-            ThemeUtils.MAIN + "Tools"
+            ThemeUtils.MAIN + "工具"
     ));
     public static final SubCategory MODIFICATIONS = new SubCategory(SlimeTinker.inst().getKeys().getCategoryModifications(), MAIN, new CustomItem(
             Material.REDSTONE,
-            ThemeUtils.MAIN + "Mods"
+            ThemeUtils.MAIN + "移动设备"
     ));
     public static final DummyCategory DUMMY = new DummyCategory(SlimeTinker.inst().getKeys().getCategoryDummy(), new CustomItem(
             Material.BARRIER,
-            ThemeUtils.MAIN + "SlimeTinker Dummy"
+            ThemeUtils.MAIN + "匠魂"
     ));
 
     public static void set(SlimeTinker p) {

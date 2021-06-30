@@ -71,7 +71,7 @@ public final class Experience {
             modSlots++;
             expRequired = (expRequired * EXP_GROWTH);
             promoteMaterial(itemStack, level, player);
-            player.sendMessage(ThemeUtils.SUCCESS + "Your Tinker's tool has leveled up! +1 Modifier Slot");
+            player.sendMessage(ThemeUtils.SUCCESS + "你的工具升级了");
 
             silverChecks(matPropertyHead, im, itemStack, player);
 

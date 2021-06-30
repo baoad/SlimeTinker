@@ -41,7 +41,7 @@ public class ToolTemplate extends UnplaceableBlock {
             case IDStrings.SWORD:
                 return Material.STONE_SWORD;
             default:
-                throw new IllegalStateException("Unexpected value: " + toolDefinition.getClassType());
+                throw new IllegalStateException("意外值: " + toolDefinition.getClassType());
         }
     }
 

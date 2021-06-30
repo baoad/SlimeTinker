@@ -104,8 +104,8 @@ public final class Alloys {
                     "ALLOY_STEEL",
                     SkullTextures.ALLOY_SILVER,
                     ThemeUtils.ThemeItemType.MOLTEN_METAL,
-                    "Alloy: Steel",
-                    ThemeUtils.PASSIVE + "An alloy of molten Iron and Coal."
+                    "合金:钢",
+                    ThemeUtils.PASSIVE + "铁,煤合制合金"
             );
 
     public static final SlimefunItemStack ALLOY_DAM_STEEL =
@@ -113,8 +113,8 @@ public final class Alloys {
                     "ALLOY_DAM_STEEL",
                     SkullTextures.ALLOY_SILVER,
                     ThemeUtils.ThemeItemType.MOLTEN_METAL,
-                    "Alloy: Damascus Steel",
-                    ThemeUtils.PASSIVE + "An alloy of molten Steel, Iron and Coal."
+                    "合金:大马士革钢铁",
+                    ThemeUtils.PASSIVE + "钢,铁,煤合制合金"
             );
 
     public static final SlimefunItemStack ALLOY_DURALIUM =
@@ -122,8 +122,8 @@ public final class Alloys {
                     "ALLOY_DURALIUM",
                     SkullTextures.ALLOY_SILVER,
                     ThemeUtils.ThemeItemType.MOLTEN_METAL,
-                    "Alloy: Duralium",
-                    ThemeUtils.PASSIVE + "An alloy of molten Aluminium and Copper."
+                    "合金:硬铝",
+                    ThemeUtils.PASSIVE + "铝,铜合制合金"
             );
 
     public static final SlimefunItemStack ALLOY_BRONZE =
@@ -131,8 +131,8 @@ public final class Alloys {
                     "ALLOY_BRONZE",
                     SkullTextures.ALLOY_BROWN,
                     ThemeUtils.ThemeItemType.MOLTEN_METAL,
-                    "Alloy: Bronze",
-                    ThemeUtils.PASSIVE + "An alloy of molten Copper and Tin."
+                    "合金:青铜",
+                    ThemeUtils.PASSIVE + "铜,锡合制合金"
             );
 
     public static final SlimefunItemStack ALLOY_ALU_BRONZE =
@@ -140,8 +140,8 @@ public final class Alloys {
                     "ALLOY_ALU_BRONZE",
                     SkullTextures.ALLOY_TAN,
                     ThemeUtils.ThemeItemType.MOLTEN_METAL,
-                    "Alloy: Aluminum Bronze",
-                    ThemeUtils.PASSIVE + "An alloy of molten Aluminium and Bronze."
+                    "合金:铝青铜",
+                    ThemeUtils.PASSIVE + "铝,青铜合制合金."
             );
 
     public static final SlimefunItemStack ALLOY_HARD =
@@ -149,9 +149,9 @@ public final class Alloys {
                     "ALLOY_HARD",
                     SkullTextures.ALLOY_SILVER,
                     ThemeUtils.ThemeItemType.MOLTEN_METAL,
-                    "Alloy: Hardened Metal",
-                    ThemeUtils.PASSIVE + "An alloy of molten Aluminum Brass, Duralium,",
-                    ThemeUtils.PASSIVE + "Damascus Steel and Coal"
+                    "合金:硬化金属",
+                    ThemeUtils.PASSIVE + "铝黄铜,硬铝,大马士革钢,煤炭合制合金",
+                    ThemeUtils.PASSIVE + ""
             );
 
     public static final SlimefunItemStack ALLOY_COR_BRONZE =
@@ -159,9 +159,9 @@ public final class Alloys {
                     "ALLOY_COR_BRONZE",
                     SkullTextures.ALLOY_BROWN,
                     ThemeUtils.ThemeItemType.MOLTEN_METAL,
-                    "Alloy: Corinthian Bronze",
-                    ThemeUtils.PASSIVE + "An alloy of molten Bronze, Gold, Silver",
-                    ThemeUtils.PASSIVE + "and Copper"
+                    "合金:科林斯青铜",
+                    ThemeUtils.PASSIVE + "青铜,金,银,铜合制合金",
+                    ThemeUtils.PASSIVE + ""
             );
 
     public static final SlimefunItemStack ALLOY_SOLDER =
@@ -169,8 +169,8 @@ public final class Alloys {
                     "ALLOY_SOLDER",
                     SkullTextures.ALLOY_SILVER,
                     ThemeUtils.ThemeItemType.MOLTEN_METAL,
-                    "Alloy: Solder",
-                    ThemeUtils.PASSIVE + "An alloy of molten Lead and Tin."
+                    "合金:焊料",
+                    ThemeUtils.PASSIVE + "铅,锡合金"
             );
 
     public static final SlimefunItemStack ALLOY_BILLON =
@@ -178,8 +178,8 @@ public final class Alloys {
                     "ALLOY_BILLON",
                     SkullTextures.ALLOY_BLUE_PALE,
                     ThemeUtils.ThemeItemType.MOLTEN_METAL,
-                    "Alloy: Billon",
-                    ThemeUtils.PASSIVE + "An alloy of molten Silver and Copper."
+                    "合金:银铜合金",
+                    ThemeUtils.PASSIVE + "银,铜合制合金"
             );
 
     public static final SlimefunItemStack ALLOY_BRASS =
@@ -187,8 +187,8 @@ public final class Alloys {
                     "ALLOY_BRASS",
                     SkullTextures.ALLOY_RED,
                     ThemeUtils.ThemeItemType.MOLTEN_METAL,
-                    "Alloy: Brass",
-                    ThemeUtils.PASSIVE + "An alloy of molten Copper and Zinc."
+                    "合金:黄铜",
+                    ThemeUtils.PASSIVE + "铜 ,锌合制合金"
             );
 
     public static final SlimefunItemStack ALLOY_ALU_BRASS =
@@ -196,8 +196,8 @@ public final class Alloys {
                     "ALLOY_ALU_BRASS",
                     SkullTextures.ALLOY_RED,
                     ThemeUtils.ThemeItemType.MOLTEN_METAL,
-                    "Alloy: Aluminum Brass",
-                    ThemeUtils.PASSIVE + "An alloy of molten Brass and Aluminum."
+                    "合金:铝黄铜",
+                    ThemeUtils.PASSIVE + "黄铜,铝合制合金."
             );
 
     public static final SlimefunItemStack ALLOY_NICKEL =
@@ -205,8 +205,8 @@ public final class Alloys {
                     "ALLOY_NICKEL",
                     SkullTextures.ALLOY_SILVER,
                     ThemeUtils.ThemeItemType.MOLTEN_METAL,
-                    "Alloy: Nickel",
-                    ThemeUtils.PASSIVE + "An alloy of molten Iron and Copper."
+                    "合金:镍",
+                    ThemeUtils.PASSIVE + "铁,铜合制合金"
             );
 
     public static final SlimefunItemStack ALLOY_COBALT =
@@ -214,8 +214,8 @@ public final class Alloys {
                     "ALLOY_COBALT",
                     SkullTextures.ALLOY_PURPLE,
                     ThemeUtils.ThemeItemType.MOLTEN_METAL,
-                    "Alloy: Cobalt",
-                    ThemeUtils.PASSIVE + "An alloy of molten Nickel, Iron and Copper."
+                    "合金:钴",
+                    ThemeUtils.PASSIVE + "镍,铁,铜合制合金"
             );
 
     public static final SlimefunItemStack ALLOY_REINFORCED =
@@ -223,8 +223,8 @@ public final class Alloys {
                     "ALLOY_REINFORCED",
                     SkullTextures.ALLOY_PINK,
                     ThemeUtils.ThemeItemType.MOLTEN_METAL,
-                    "Alloy: Reinforced Metal",
-                    ThemeUtils.PASSIVE + "An alloy of various molten alloys."
+                    "合金:增强金属",
+                    ThemeUtils.PASSIVE + "各种合金熔炼而成"
             );
 
     public static void set(SlimeTinker p) {

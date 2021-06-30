@@ -73,7 +73,7 @@ public class EntityDamagedListener implements Listener {
                 EntityDamageEvents.headDuralium(friend);
             }
             if (!friend.isDuraliumCheck()) {
-                player.sendMessage(ThemeUtils.WARNING + "Your weapon is broken, you should really repair it!");
+                player.sendMessage(ThemeUtils.WARNING + "你的武器被打破了，你应该修理它");
                 event.setCancelled(true);
                 return;
             }

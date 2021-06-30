@@ -44,10 +44,10 @@ public final class Tools {
                     "TOOL_SHOVEL_DUMMY",
                     Material.STONE_SHOVEL,
                     ThemeUtils.ThemeItemType.TOOL,
-                    "Tinker's Shovel",
-                    ThemeUtils.PASSIVE + "A shovel formed of three parts.",
-                    ThemeUtils.PASSIVE + "Tinker's tools can level up and be",
-                    ThemeUtils.PASSIVE + "given extra properties and modifiers."
+                    "匠魂铲子",
+                    ThemeUtils.PASSIVE + "由三部分组成",
+                    ThemeUtils.PASSIVE + "匠魂的工具可以升级",
+                    ThemeUtils.PASSIVE + "或者提供额外的模块"
             );
 
     public static final SlimefunItemStack TOOL_PICKAXE_DUMMY =
@@ -55,10 +55,10 @@ public final class Tools {
                     "TOOL_PICKAXE_DUMMY",
                     Material.STONE_PICKAXE,
                     ThemeUtils.ThemeItemType.TOOL,
-                    "Tinker's Pickaxe",
-                    ThemeUtils.PASSIVE + "A pickaxe formed of three parts.",
-                    ThemeUtils.PASSIVE + "Tinker's tools can level up and be",
-                    ThemeUtils.PASSIVE + "given extra properties and modifiers."
+                    "匠魂镐子",
+                    ThemeUtils.PASSIVE + "由三部分组成",
+                    ThemeUtils.PASSIVE + "匠魂的工具可以升级",
+                    ThemeUtils.PASSIVE + "或者提供额外的模块"
             );
 
     public static final SlimefunItemStack TOOL_AXE_DUMMY =
@@ -66,10 +66,10 @@ public final class Tools {
                     "TOOL_AXE_DUMMY",
                     Material.STONE_AXE,
                     ThemeUtils.ThemeItemType.TOOL,
-                    "Tinker's Axe",
-                    ThemeUtils.PASSIVE + "An axe formed of three parts.",
-                    ThemeUtils.PASSIVE + "Tinker's tools can level up and be",
-                    ThemeUtils.PASSIVE + "given extra properties and modifiers."
+                    "匠魂斧头",
+                    ThemeUtils.PASSIVE + "由三部分组成",
+                    ThemeUtils.PASSIVE + "匠魂的工具可以升级",
+                    ThemeUtils.PASSIVE + "或者提供额外的模块"
             );
 
     public static final SlimefunItemStack TOOL_HOE_DUMMY =
@@ -77,10 +77,10 @@ public final class Tools {
                     "TOOL_HOE_DUMMY",
                     Material.STONE_HOE,
                     ThemeUtils.ThemeItemType.TOOL,
-                    "Tinker's Hoe",
-                    ThemeUtils.PASSIVE + "A hoe formed of three parts.",
-                    ThemeUtils.PASSIVE + "Tinker's tools can level up and be",
-                    ThemeUtils.PASSIVE + "given extra properties and modifiers."
+                    "匠魂锄头",
+                    ThemeUtils.PASSIVE + "由三部分组成",
+                    ThemeUtils.PASSIVE + "匠魂的工具可以升级",
+                    ThemeUtils.PASSIVE + "或者提供额外的模块"
             );
 
     public static final SlimefunItemStack TOOL_SWORD_DUMMY =
@@ -88,10 +88,10 @@ public final class Tools {
                     "TOOL_SWORD_DUMMY",
                     Material.STONE_SWORD,
                     ThemeUtils.ThemeItemType.TOOL,
-                    "Tinker's Sword",
-                    ThemeUtils.PASSIVE + "A sword formed of three parts.",
-                    ThemeUtils.PASSIVE + "Tinker's tools can level up and be",
-                    ThemeUtils.PASSIVE + "given extra properties and modifiers."
+                    "匠魂剑",
+                    ThemeUtils.PASSIVE + "由三部分组成",
+                    ThemeUtils.PASSIVE + "匠魂的工具可以升级",
+                    ThemeUtils.PASSIVE + "或者提供额外的模块"
             );
 
     public static final SlimefunItemStack TOOL_AXE =
@@ -189,10 +189,10 @@ public final class Tools {
                     "TOOL_INFO",
                     SkullTextures.INFO,
                     ThemeUtils.ThemeItemType.INFO,
-                    "Tinker's Tools Info",
-                    ThemeUtils.PASSIVE + "Tinker's tools start at Stone. As you",
-                    ThemeUtils.PASSIVE + "level the tools up, they will promote",
-                    ThemeUtils.PASSIVE + "through Gold > Iron > Diamond > Netherite."
+                    "匠魂工具简介",
+                    ThemeUtils.PASSIVE + "匠魂的工具时从石头开始的",
+                    ThemeUtils.PASSIVE + "当你升级工具时,他们会通过",
+                    ThemeUtils.PASSIVE + "黄金>铁>钻石>下届合金"
             );
 
     public static final ToolTemplate SHOVEL = new ToolTemplate(Categories.DUMMY, TOOL_SHOVEL, DummyTable.TYPE, new ItemStack[9]);

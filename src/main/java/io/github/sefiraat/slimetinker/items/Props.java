@@ -25,8 +25,8 @@ public final class Props {
                     "PROP_HEAD",
                     SkullTextures.PART_SWORD_BLADE,
                     ThemeUtils.ThemeItemType.PART,
-                    "Part: Head",
-                    ThemeUtils.PASSIVE + "Any 'Head' item (Sword Blade, Axe Head etc.)"
+                    "零件:工具头",
+                    ThemeUtils.PASSIVE + "任何“头部”物品（剑刃、斧头等）"
             );
     // Used to display the 'binding' item in Property explanation recipes only
     public static final SlimefunItemStack PROP_BINDING =
@@ -34,8 +34,8 @@ public final class Props {
                     "PROP_BINDING",
                     SkullTextures.PART_SWORD_BLADE,
                     ThemeUtils.ThemeItemType.PART,
-                    "Part: Head",
-                    ThemeUtils.PASSIVE + "Any 'Binder' item."
+                    "零件:装订",
+                    ThemeUtils.PASSIVE + "任何'装订'物品"
             );
     // Used to display the 'rod' item in Property explanation recipes only
     public static final SlimefunItemStack PROP_ROD =
@@ -43,8 +43,8 @@ public final class Props {
                     "PROP_ROD",
                     SkullTextures.PART_TOOL_ROD,
                     ThemeUtils.ThemeItemType.PART,
-                    "Part: Tool Rod",
-                    ThemeUtils.PASSIVE + "Any 'Tool Rod' item."
+                    "零件:工具杆",
+                    ThemeUtils.PASSIVE + "任何'工具杆'物品"
             );
     // Used to display the 'rod' item in Property explanation recipes only
     public static final SlimefunItemStack PROP_HEADROD =
@@ -52,8 +52,8 @@ public final class Props {
                     "PROP_HEADROD",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PART,
-                    "Part: Head and Rod",
-                    ThemeUtils.PASSIVE + "Any 'Head' or 'Tool Rod'."
+                    "零件:头和杆",
+                    ThemeUtils.PASSIVE + "任何'头'与'工具杆'物品"
             );
 
     protected static ItemStack[] propRecipe(SlimefunItemStack part, ItemStack stack) {
@@ -72,9 +72,9 @@ public final class Props {
                     "PROP_ABRA",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: 'Abra'",
-                    ThemeUtils.PASSIVE + "Any hit mob has a % chance to be",
-                    ThemeUtils.PASSIVE + "randomly teleported."
+                    "合金模块: '传送'",
+                    ThemeUtils.PASSIVE + "攻击怪物有几率将它",
+                    ThemeUtils.PASSIVE + "随机传送"
             );
 
     public static final SlimefunItemStack PROP_ADAMANT =
@@ -82,9 +82,9 @@ public final class Props {
                     "PROP_ADAMANT",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Adamant",
-                    ThemeUtils.PASSIVE + "Become immune to all explosions",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:坚固",
+                    ThemeUtils.PASSIVE + "免疫所有爆炸",
+                    ThemeUtils.ITEM_TYPEDESC + "添加者: " + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_ALLTHATGLITTERS =
@@ -92,8 +92,8 @@ public final class Props {
                     "PROP_ALLTHATGLITTERS",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: All that glitters",
-                    ThemeUtils.PASSIVE + "Makes you all shiny..."
+                    "合金模块:荧光",
+                    ThemeUtils.PASSIVE + "让你全身发光..."
             );
 
     public static final SlimefunItemStack PROP_ALLTHATGLITTERS2 =
@@ -101,9 +101,9 @@ public final class Props {
                     "PROP_ALLTHATGLITTERS2",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: All that Glitters II",
-                    ThemeUtils.PASSIVE + "Makes you shiny AND rainbow...y",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:荧光 II",
+                    ThemeUtils.PASSIVE + "让你像彩虹一样美",
+                    ThemeUtils.ITEM_TYPEDESC + "添加者: " + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_ATTRACTION =
@@ -111,9 +111,9 @@ public final class Props {
                     "PROP_ATTRACTION",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Attraction",
-                    ThemeUtils.PASSIVE + "All drops are drawn to you within a",
-                    ThemeUtils.PASSIVE + "5 block range."
+                    "合金模块:引力",
+                    ThemeUtils.PASSIVE + "水滴效果在你5格内呈现",
+                    ThemeUtils.PASSIVE + ""
             );
 
     public static final SlimefunItemStack PROP_BRAINSNOTBRAWN =
@@ -121,9 +121,9 @@ public final class Props {
                     "PROP_BRAINSNOTBRAWN",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Brains not brawn",
-                    ThemeUtils.PASSIVE + "Tool exp gain is doubled. Damage",
-                    ThemeUtils.PASSIVE + "dealt is halved."
+                    "合金模块:肢达头简",
+                    ThemeUtils.PASSIVE + "工具经验增益加倍",
+                    ThemeUtils.PASSIVE + "伤害减半"
             );
 
     public static final SlimefunItemStack PROP_BRAINSNOTBRAWN2 =
@@ -131,9 +131,9 @@ public final class Props {
                     "PROP_BRAINSNOTBRAWN2",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Brains Not Brawn II",
-                    ThemeUtils.PASSIVE + "Tool exp +200%, Damage 50%",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:肢达头简 II",
+                    ThemeUtils.PASSIVE + "工具经验+200%, 伤害减少 50%",
+                    ThemeUtils.ITEM_TYPEDESC + "添加者: " + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_BREAKPOINT =
@@ -141,10 +141,10 @@ public final class Props {
                     "PROP_BREAKPOINT",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Breakpoint",
-                    ThemeUtils.PASSIVE + "Unbreakable. +200% Damage.",
-                    ThemeUtils.PASSIVE + "+200% Tool Exp and 3x3 Mining.",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:牢不可破",
+                    ThemeUtils.PASSIVE + "+200%伤害",
+                    ThemeUtils.PASSIVE + "+200%工具经验3x3挖掘范围",
+                    ThemeUtils.ITEM_TYPEDESC + "添加者: " + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_BRITTLE =
@@ -152,8 +152,8 @@ public final class Props {
                     "PROP_BRITTLE",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Brittle",
-                    ThemeUtils.PASSIVE + "Durability loss is doubled."
+                    "合金模块:易碎",
+                    ThemeUtils.PASSIVE + "耐久损失下呗"
             );
 
     public static final SlimefunItemStack PROP_BULKY =
@@ -161,8 +161,8 @@ public final class Props {
                     "PROP_BULKY",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Bulky",
-                    ThemeUtils.PASSIVE + "Mines in a 3x3 area"
+                    "合金模块:挖掘",
+                    ThemeUtils.PASSIVE + "挖掘3x3方块"
             );
 
     public static final SlimefunItemStack PROP_CAN =
@@ -170,8 +170,8 @@ public final class Props {
                     "PROP_CAN",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: ...can",
-                    ThemeUtils.PASSIVE + "Your hunger just fades away"
+                    "合金模块:饱和",
+                    ThemeUtils.PASSIVE + "你的饥饿感消失了"
             );
 
     public static final SlimefunItemStack PROP_CAN2 =
@@ -179,9 +179,9 @@ public final class Props {
                     "PROP_CAN2",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Can II",
-                    ThemeUtils.PASSIVE + "No Hunger Loss",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:饱和 II",
+                    ThemeUtils.PASSIVE + "饿了?不可能",
+                    ThemeUtils.ITEM_TYPEDESC + "提交者:" + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_CHARGEDA =
@@ -189,8 +189,8 @@ public final class Props {
                     "PROP_CHARGEDA",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Charged (A)",
-                    ThemeUtils.PASSIVE + "Doesn't do anything... on it's own..."
+                    "合金模块:充电(A)",
+                    ThemeUtils.PASSIVE + "自动充电"
             );
 
     public static final SlimefunItemStack PROP_CHARGEDB =
@@ -198,8 +198,8 @@ public final class Props {
                     "PROP_CHARGEDB",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Charged (B)",
-                    ThemeUtils.PASSIVE + "Doesn't do anything... on it's own..."
+                    "合金模块:充电(B)",
+                    ThemeUtils.PASSIVE + "自动充电"
             );
 
     public static final SlimefunItemStack PROP_CLEANCUT =
@@ -207,9 +207,9 @@ public final class Props {
                     "PROP_CLEANCUT",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Clean Cut",
-                    ThemeUtils.PASSIVE + "Damage +100%. Haste 2",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:清洁切割",
+                    ThemeUtils.PASSIVE + "伤害 +100%. 速度 2",
+                    ThemeUtils.ITEM_TYPEDESC + "提交者:" + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_CONCEPTUALDEFENCE =
@@ -217,9 +217,9 @@ public final class Props {
                     "PROP_CONCEPTUALDEFENCE",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Conceptual Defence",
-                    ThemeUtils.PASSIVE + "All damage is halved (rounded up).",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:概念防御",
+                    ThemeUtils.PASSIVE + "所有伤害减半（四舍五入）",
+                    ThemeUtils.ITEM_TYPEDESC + "提交者:" + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_CONDUCTIVE =
@@ -227,9 +227,9 @@ public final class Props {
                     "PROP_CONDUCTIVE",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Conductive",
-                    ThemeUtils.PASSIVE + "All tool exp is converted to player exp.",
-                    ThemeUtils.PASSIVE + "dealt is halved."
+                    "合金模块:转换",
+                    ThemeUtils.PASSIVE + "所有工具经验转换为玩家经验",
+                    ThemeUtils.PASSIVE + ""
             );
 
     public static final SlimefunItemStack PROP_CONDUCTIVE2 =
@@ -237,10 +237,10 @@ public final class Props {
                     "PROP_CONDUCTIVE2",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Conductive II",
-                    ThemeUtils.PASSIVE + "All tool exp is converted to player exp",
-                    ThemeUtils.PASSIVE + "with a 50% bonus.",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:转换 II",
+                    ThemeUtils.PASSIVE + "所有工具经验50%转换为玩家经验",
+                    ThemeUtils.PASSIVE + "",
+                    ThemeUtils.ITEM_TYPEDESC + "提交者:" + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_CONDUCTOR =
@@ -248,10 +248,10 @@ public final class Props {
                     "PROP_CONDUCTOR",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Conductor",
-                    ThemeUtils.PASSIVE + "All player exp is converted to tool",
-                    ThemeUtils.PASSIVE + "exp at a 10 : 1 ratio.",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:导线",
+                    ThemeUtils.PASSIVE + "玩家所有经验转换为工具“",
+                    ThemeUtils.PASSIVE + "10 : 1比例",
+                    ThemeUtils.ITEM_TYPEDESC + "提交者:" + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_DECAY =
@@ -259,9 +259,9 @@ public final class Props {
                     "PROP_DECAY",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Decay",
-                    ThemeUtils.PASSIVE + "Slowly repairs the tool at night.",
-                    ThemeUtils.PASSIVE + "Stacks with mods. Must be in hand"
+                    "合金模块:衰变",
+                    ThemeUtils.PASSIVE + "晚上自动修理装备",
+                    ThemeUtils.PASSIVE + ""
             );
 
     public static final SlimefunItemStack PROP_DOOM =
@@ -269,8 +269,8 @@ public final class Props {
                     "PROP_DOOM",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Doom",
-                    ThemeUtils.PASSIVE + "I get a bad feeling from this..."
+                    "合金模块:厄运",
+                    ThemeUtils.PASSIVE + "我有种不好的感觉..."
             );
 
     public static final SlimefunItemStack PROP_DURABLE =
@@ -278,9 +278,9 @@ public final class Props {
                     "PROP_DURABLE",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Durable",
-                    ThemeUtils.PASSIVE + "Ignores being broken but damage 50%,",
-                    ThemeUtils.PASSIVE + "mining will be slower and 0 exp."
+                    "合金模块:耐用",
+                    ThemeUtils.PASSIVE + "忽略耐久度",
+                    ThemeUtils.PASSIVE + "但伤害-50% 不增加经验"
             );
 
     public static final SlimefunItemStack PROP_DURABLE_CO =
@@ -288,10 +288,10 @@ public final class Props {
                     "PROP_DURABLE_CO",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Durable",
-                    ThemeUtils.PASSIVE + "Ignores being broken but damage 50%,",
-                    ThemeUtils.PASSIVE + "mining will be slower and 0 exp.",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:耐用 II",
+                    ThemeUtils.PASSIVE + "忽略耐久度",
+                    ThemeUtils.PASSIVE + "但伤害-50% 不增加经验",
+                    ThemeUtils.ITEM_TYPEDESC + "提交者:" + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_EARTHSHAKER =
@@ -299,10 +299,10 @@ public final class Props {
                     "PROP_EARTHSHAKER",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Earthshaker",
-                    ThemeUtils.PASSIVE + "Knocks back hit mobs and stuns them",
-                    ThemeUtils.PASSIVE + "when they land.",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:摇晃",
+                    ThemeUtils.PASSIVE + "击退怪物并打晕他",
+                    ThemeUtils.PASSIVE + "",
+                    ThemeUtils.ITEM_TYPEDESC + "提交者:" + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_EASYFIX =
@@ -310,8 +310,8 @@ public final class Props {
                     "PROP_EASYFIX",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Easy Fix",
-                    ThemeUtils.PASSIVE + "Only 1 kit is needed to fully repair."
+                    "合金模块:简易修复",
+                    ThemeUtils.PASSIVE + "只需1个部件即可完全修复"
             );
 
     public static final SlimefunItemStack PROP_ELVENSPEED =
@@ -319,9 +319,9 @@ public final class Props {
                     "PROP_ELVENSPEED",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Elven Speed",
-                    ThemeUtils.PASSIVE + "Haste 2, Speed 1. Durability loss +50%",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:精灵速度",
+                    ThemeUtils.PASSIVE + "急迫2，速度1。耐久性损失+50%",
+                    ThemeUtils.ITEM_TYPEDESC + "提交者:" + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_ENCHANTING =
@@ -329,10 +329,10 @@ public final class Props {
                     "PROP_ENCHANTING",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Enchanting",
-                    ThemeUtils.PASSIVE + "Tool exp gain is halved. Tools add a",
-                    ThemeUtils.PASSIVE + "random vanilla enchant when leveling. May or",
-                    ThemeUtils.PASSIVE + "may not match the tool type."
+                    "合金模块:附魔",
+                    ThemeUtils.PASSIVE + "工具经验增益减半",
+                    ThemeUtils.PASSIVE + "给工具水机增加附魔属性",
+                    ThemeUtils.PASSIVE + "可能不匹配此物"
             );
 
     public static final SlimefunItemStack PROP_ENCHANTING2 =
@@ -340,11 +340,11 @@ public final class Props {
                     "PROP_ENCHANTING2",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Enchanting II",
-                    ThemeUtils.PASSIVE + "Tool exp gain is halved. Tools add 1-3",
-                    ThemeUtils.PASSIVE + "randomly selected enchants when leveling",
-                    ThemeUtils.PASSIVE + "up. These enchants may not be useful!",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:附魔 II",
+                    ThemeUtils.PASSIVE + "工具收益减半",
+                    ThemeUtils.PASSIVE + "升级时工具会随机添加1-3个附魔",
+                    ThemeUtils.PASSIVE + "这些附魔可能没用",
+                    ThemeUtils.ITEM_TYPEDESC + "提交者:" + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_FAST =
@@ -352,9 +352,9 @@ public final class Props {
                     "PROP_FAST",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Fast",
-                    ThemeUtils.PASSIVE + "Move speed increased and haste applied.",
-                    ThemeUtils.PASSIVE + "Stacks with modifiers."
+                    "合金模块:快速",
+                    ThemeUtils.PASSIVE + "移动速度提高，加速.",
+                    ThemeUtils.PASSIVE + ""
             );
 
     public static final SlimefunItemStack PROP_FEARTHEVOID =
@@ -362,9 +362,9 @@ public final class Props {
                     "PROP_FEARTHEVOID",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Fear The Void",
-                    ThemeUtils.PASSIVE + "Damage +150%. 250% in the End.",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:虚空",
+                    ThemeUtils.PASSIVE + "伤害+150% 最后是250%.",
+                    ThemeUtils.ITEM_TYPEDESC + "提交者:" + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_FLAMABLE =
@@ -372,9 +372,9 @@ public final class Props {
                     "PROP_FLAMABLE",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Flammable",
-                    ThemeUtils.PASSIVE + "Has a (Tool level x 5)% chance to",
-                    ThemeUtils.PASSIVE + "set your enemies ablaze."
+                    "合金模块:易燃",
+                    ThemeUtils.PASSIVE + "(工具等级x5)%的几率",
+                    ThemeUtils.PASSIVE + "点燃你的敌人"
             );
 
     public static final SlimefunItemStack PROP_FLAMABLE_CO =
@@ -382,10 +382,10 @@ public final class Props {
                     "PROP_FLAMABLE_CO",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Flammable",
-                    ThemeUtils.PASSIVE + "Has a (Tool level x 5)% chance to",
-                    ThemeUtils.PASSIVE + "set your enemies ablaze.",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:易燃 IE",
+                    ThemeUtils.PASSIVE + "(工具等级x5)%的几率",
+                    ThemeUtils.PASSIVE + "点燃你的敌人",
+                    ThemeUtils.ITEM_TYPEDESC + "提交者:" + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_FLAMABLE2 =
@@ -393,10 +393,10 @@ public final class Props {
                     "PROP_FLAMABLE2",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Flammable II",
-                    ThemeUtils.PASSIVE + "Has a (Tool level x 10)% chance to",
-                    ThemeUtils.PASSIVE + "set your enemies ablaze for a longer time.",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:易燃 II",
+                    ThemeUtils.PASSIVE + "(工具等级x10)%的几率",
+                    ThemeUtils.PASSIVE + "点燃你的敌人",
+                    ThemeUtils.ITEM_TYPEDESC + "提交者:" + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_FLAMINGHOT =
@@ -404,8 +404,8 @@ public final class Props {
                     "PROP_FLAMINGHOT",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Brains not brawn",
-                    ThemeUtils.PASSIVE + "Smelts things when possible."
+                    "合金模块:火烈鸟",
+                    ThemeUtils.PASSIVE + "尽可能地闻东西"
             );
 
     public static final SlimefunItemStack PROP_FLAMINGHOT_CO =
@@ -413,9 +413,9 @@ public final class Props {
                     "PROP_FLAMINGHOT_CO",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Brains not brawn",
-                    ThemeUtils.PASSIVE + "Smelts things when possible.",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:火烈鸟 IE",
+                    ThemeUtils.PASSIVE + "尽可能地闻东西",
+                    ThemeUtils.ITEM_TYPEDESC + "提交者:" + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_FORTUNATE =
@@ -423,10 +423,10 @@ public final class Props {
                     "PROP_FORTUNATE",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Fortunate",
-                    ThemeUtils.PASSIVE + "200% drops from fortune. Stacks",
-                    ThemeUtils.PASSIVE + "with Lapis modifiers.",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:幸运",
+                    ThemeUtils.PASSIVE + "200%几率出额外物品",
+                    ThemeUtils.PASSIVE + "使用物品修改:青金石",
+                    ThemeUtils.ITEM_TYPEDESC + "提交者:" + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_FUSED =
@@ -434,9 +434,9 @@ public final class Props {
                     "PROP_FUSED",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Fused",
-                    ThemeUtils.PASSIVE + "Tool cannot be dropped either by the",
-                    ThemeUtils.PASSIVE + "player or on death."
+                    "合金模块:熔合",
+                    ThemeUtils.PASSIVE + "与持有者融合",
+                    ThemeUtils.PASSIVE + "不可能摘下来"
             );
 
     public static final SlimefunItemStack PROP_GOLDENVEIL =
@@ -444,9 +444,9 @@ public final class Props {
                     "PROP_GOLDENVEIL",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Golden Veil",
-                    ThemeUtils.PASSIVE + "Makes the player invisible. If used on",
-                    ThemeUtils.PASSIVE + "a weapon, -100% damage."
+                    "合金模块:隐形面纱",
+                    ThemeUtils.PASSIVE + "使玩家隐形。如果用在武器上",
+                    ThemeUtils.PASSIVE + "-100%伤害"
             );
 
     public static final SlimefunItemStack PROP_GOLDENVEIL2 =
@@ -454,10 +454,10 @@ public final class Props {
                     "PROP_GOLDENVEIL2",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Golden Veil II",
-                    ThemeUtils.PASSIVE + "Makes the player invisible. If used on",
-                    ThemeUtils.PASSIVE + "a weapon, +150% damage.",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:隐形面纱 II",
+                    ThemeUtils.PASSIVE + "使玩家隐形。如果用在武器上",
+                    ThemeUtils.PASSIVE + "+150%伤害",
+                    ThemeUtils.ITEM_TYPEDESC + "提交者:" + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_GRACEFUL =
@@ -465,8 +465,8 @@ public final class Props {
                     "PROP_GRACEFUL",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Graceful",
-                    ThemeUtils.PASSIVE + "DOLPHIN POWERS, ACTIVATE!"
+                    "合金模块:海豚",
+                    ThemeUtils.PASSIVE + "海豚力量，启动!"
             );
 
     public static final SlimefunItemStack PROP_GRACEFUL2 =
@@ -474,9 +474,9 @@ public final class Props {
                     "PROP_GRACEFUL2",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Graceful II",
-                    ThemeUtils.PASSIVE + "DOLPHIN POWERS, ACTIVATE... MORE!",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:海豚 II",
+                    ThemeUtils.PASSIVE + "激活更多的海豚力量!",
+                    ThemeUtils.ITEM_TYPEDESC + "提交者:" + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_GRINDER =
@@ -484,10 +484,10 @@ public final class Props {
                     "PROP_GRINDER",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Grinder",
-                    ThemeUtils.PASSIVE + "Breaking blocks act as if they have",
-                    ThemeUtils.PASSIVE + "gone through the grinder.",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:研磨机",
+                    ThemeUtils.PASSIVE + "打破方块进行研磨",
+                    ThemeUtils.PASSIVE + "",
+                    ThemeUtils.ITEM_TYPEDESC + "提交者:" + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_GROWTH =
@@ -495,9 +495,9 @@ public final class Props {
                     "PROP_GROWTH",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Growth",
-                    ThemeUtils.PASSIVE + "Slowly repairs the tool during the day.",
-                    ThemeUtils.PASSIVE + "Stacks with mods. Must be in hand"
+                    "合金模块:增长",
+                    ThemeUtils.PASSIVE + "白天修理工具",
+                    ThemeUtils.PASSIVE + ""
             );
 
     public static final SlimefunItemStack PROP_HEAVY =
@@ -505,8 +505,8 @@ public final class Props {
                     "PROP_HEAVY",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Heavy",
-                    ThemeUtils.PASSIVE + "Mines in a 3x3 area."
+                    "合金模块:笨重",
+                    ThemeUtils.PASSIVE + "挖掘3x3方块"
             );
 
     public static final SlimefunItemStack PROP_HIDDEN =
@@ -514,8 +514,8 @@ public final class Props {
                     "PROP_HIDDEN",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Hidden",
-                    ThemeUtils.PASSIVE + "Grants invisibility, breaks instantly."
+                    "合金模块:隐藏",
+                    ThemeUtils.PASSIVE + "隐形，瞬间断裂"
             );
 
     public static final SlimefunItemStack PROP_INFINITE =
@@ -523,9 +523,9 @@ public final class Props {
                     "PROP_INFINITE",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Infinite",
-                    ThemeUtils.PASSIVE + "This tool will live on forever.",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:无尽",
+                    ThemeUtils.PASSIVE + "使工具无限耐久",
+                    ThemeUtils.ITEM_TYPEDESC + "提交者:" + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_INGHEIGHTS =
@@ -533,8 +533,8 @@ public final class Props {
                     "PROP_INGHEIGHTS",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Ingheights",
-                    ThemeUtils.PASSIVE + "Something is wrong with this tool."
+                    "合金模块:重",
+                    ThemeUtils.PASSIVE + "这个工具出毛病了"
             );
 
     public static final SlimefunItemStack PROP_LEECH =
@@ -542,8 +542,8 @@ public final class Props {
                     "PROP_LEECH",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Leech",
-                    ThemeUtils.PASSIVE + "Bonus health, but drains your energy."
+                    "合金模块:水蛭",
+                    ThemeUtils.PASSIVE + "额外的生命，但消耗你的能量."
             );
 
     public static final SlimefunItemStack PROP_LEECH2 =
@@ -551,9 +551,9 @@ public final class Props {
                     "PROP_LEECH2",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Leech II",
-                    ThemeUtils.PASSIVE + "Adds 6 bonus hearts.",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:水蛭 II",
+                    ThemeUtils.PASSIVE + "增加6点生命",
+                    ThemeUtils.ITEM_TYPEDESC + "提交者:" + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_MAGNANIMOUS =
@@ -561,9 +561,9 @@ public final class Props {
                     "PROP_MAGNANIMOUS",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Magnanimous II",
-                    ThemeUtils.PASSIVE + "You're just far too kind",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:海量",
+                    ThemeUtils.PASSIVE + "",
+                    ThemeUtils.ITEM_TYPEDESC + "提交者:" + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_MAGNETESIUM =
@@ -571,9 +571,9 @@ public final class Props {
                     "PROP_MAGNETESIUM",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Magnetesium",
-                    ThemeUtils.PASSIVE + "Random items are drawn to you from",
-                    ThemeUtils.PASSIVE + "within a 5 block range"
+                    "合金模块:吸取",
+                    ThemeUtils.PASSIVE + "从5个方块范围内",
+                    ThemeUtils.PASSIVE + "随机抽取物品"
             );
 
     public static final SlimefunItemStack PROP_MAGNETESIUM2 =
@@ -581,10 +581,10 @@ public final class Props {
                     "PROP_MAGNETESIUM2",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Magnetesium II",
-                    ThemeUtils.PASSIVE + "Random items are drawn to you from",
-                    ThemeUtils.PASSIVE + "within a 10 block range",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:吸取 II",
+                    ThemeUtils.PASSIVE + "从10个方块范围内",
+                    ThemeUtils.PASSIVE + "随机抽取物品",
+                    ThemeUtils.ITEM_TYPEDESC + "提交者:" + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_MALLEABLE =
@@ -592,8 +592,8 @@ public final class Props {
                     "PROP_MALLEABLE",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Malleable",
-                    ThemeUtils.PASSIVE + "Deal 50% less damage but gain luck."
+                    "合金模块:延展",
+                    ThemeUtils.PASSIVE + "伤害减免50% 增加幸运"
             );
 
     public static final SlimefunItemStack PROP_MALLEABLE2 =
@@ -601,10 +601,10 @@ public final class Props {
                     "PROP_MALLEABLE2",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Malleable II",
-                    ThemeUtils.PASSIVE + "Deal 50% less damage but gain lots of",
-                    ThemeUtils.PASSIVE + "Luck and Speed.",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:延展 II",
+                    ThemeUtils.PASSIVE + "伤害减免50% 增加幸运",
+                    ThemeUtils.PASSIVE + "与速度",
+                    ThemeUtils.ITEM_TYPEDESC + "提交者:" + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_MERCHANTSVEIL =
@@ -612,9 +612,9 @@ public final class Props {
                     "PROP_MERCHANTSVEIL",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Merchant's Veil",
-                    ThemeUtils.PASSIVE + "Invisibility with none of the drawbacks!",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:面纱",
+                    ThemeUtils.PASSIVE + "无可视性 没有任何缺点",
+                    ThemeUtils.ITEM_TYPEDESC + "提交者:" + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_MYSTIC =
@@ -622,9 +622,9 @@ public final class Props {
                     "PROP_MYSTIC",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Mystic",
-                    ThemeUtils.PASSIVE + "Player Exp + 100% (Mining) +50% (Mobs)",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:秘银",
+                    ThemeUtils.PASSIVE + "玩家经验+100%（采矿）+50%（怪物）",
+                    ThemeUtils.ITEM_TYPEDESC + "提交者:" + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_NIGHTSTALKER =
@@ -632,8 +632,8 @@ public final class Props {
                     "PROP_NIGHTSTALKER",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Night Stalker",
-                    ThemeUtils.PASSIVE + "Gives night vision."
+                    "合金模块:暗夜",
+                    ThemeUtils.PASSIVE + "提供夜视"
             );
 
     public static final SlimefunItemStack PROP_OXYGENATED =
@@ -641,8 +641,8 @@ public final class Props {
                     "PROP_OXYGENATED",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Oxygenated",
-                    ThemeUtils.PASSIVE + "Gives water breathing while held."
+                    "合金模块:含氧",
+                    ThemeUtils.PASSIVE + "水下呼吸."
             );
 
     public static final SlimefunItemStack PROP_POISONOUS =
@@ -650,8 +650,8 @@ public final class Props {
                     "PROP_POISONOUS",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Poisonous",
-                    ThemeUtils.PASSIVE + "25% chance to afflict poison on hit."
+                    "合金模块:剧毒",
+                    ThemeUtils.PASSIVE + "命中时有25%几率中毒"
             );
 
     public static final SlimefunItemStack PROP_POISONOUS2 =
@@ -659,9 +659,9 @@ public final class Props {
                     "PROP_POISONOUS2",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Poisonous II",
-                    ThemeUtils.PASSIVE + "Poisons more frequently and for longer.",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:剧毒 II",
+                    ThemeUtils.PASSIVE + "中毒的频率更高，时间更长",
+                    ThemeUtils.ITEM_TYPEDESC + "提交者:" + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_REALLYSTAINLESS =
@@ -669,9 +669,9 @@ public final class Props {
                     "PROP_REALLYSTAINLESS",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Really Stainless",
-                    ThemeUtils.PASSIVE + "Like Stainless, but.. REALLY.",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:不锈钢",
+                    ThemeUtils.PASSIVE + "就像不锈钢，但是..",
+                    ThemeUtils.ITEM_TYPEDESC + "提交者:" + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_RECYCLABLE =
@@ -679,8 +679,8 @@ public final class Props {
                     "PROP_RECYCLABLE",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Recyclable",
-                    ThemeUtils.PASSIVE + "Chance to restore durability on hit/block break"
+                    "合金模块:可回收",
+                    ThemeUtils.PASSIVE + "命中时有几率恢复耐久性"
             );
 
     public static final SlimefunItemStack PROP_RECYCLABLE2 =
@@ -688,9 +688,9 @@ public final class Props {
                     "PROP_RECYCLABLE2",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Recyclable II",
-                    ThemeUtils.PASSIVE + "Chance to restore durability on hit/block break",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:可回收 II",
+                    ThemeUtils.PASSIVE + "命中时有几率恢复耐久性",
+                    ThemeUtils.ITEM_TYPEDESC + "提交者:" + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_REFRESHING =
@@ -698,8 +698,8 @@ public final class Props {
                     "PROP_REFRESHING",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Refreshing",
-                    ThemeUtils.PASSIVE + "Slowly heals the holder."
+                    "合金模块:清爽",
+                    ThemeUtils.PASSIVE + "慢慢愈合的持有人"
             );
 
     public static final SlimefunItemStack PROP_REINFORCED =
@@ -707,8 +707,8 @@ public final class Props {
                     "PROP_REINFORCED",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Reinforced",
-                    ThemeUtils.PASSIVE + "Any Plate mod on the tool is counted twice."
+                    "合金模块:增强",
+                    ThemeUtils.PASSIVE + "工具上的任何板模都翻倍"
             );
 
     public static final SlimefunItemStack PROP_REINFORCED_CO =
@@ -716,9 +716,9 @@ public final class Props {
                     "PROP_REINFORCED_CO",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Reinforced",
-                    ThemeUtils.PASSIVE + "Any Plate mod on the tool is counted twice.",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:加固",
+                    ThemeUtils.PASSIVE + "工具上的任何板模都翻倍",
+                    ThemeUtils.ITEM_TYPEDESC + "提交者:" + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_RESISTANT =
@@ -726,8 +726,8 @@ public final class Props {
                     "PROP_RESISTANT",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Resistant",
-                    ThemeUtils.PASSIVE + "Gives fire resistance while held."
+                    "合金模块:抵抗",
+                    ThemeUtils.PASSIVE + "耐火"
             );
 
     public static final SlimefunItemStack PROP_SECRETSREVEALED =
@@ -735,9 +735,9 @@ public final class Props {
                     "PROP_SECRETSREVEALED",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Secrets Revealed",
-                    ThemeUtils.PASSIVE + "Reveals all nearby living (or not!) things.",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:解密",
+                    ThemeUtils.PASSIVE + "显示所有附近的生物（或不是！）",
+                    ThemeUtils.ITEM_TYPEDESC + "提交者:" + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_SHARP1 =
@@ -745,9 +745,9 @@ public final class Props {
                     "PROP_SHARP1",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Sharp 1",
-                    ThemeUtils.PASSIVE + "Gives increased damage, stacks with",
-                    ThemeUtils.PASSIVE + "mods and other properties."
+                    "合金模块:锐利 1",
+                    ThemeUtils.PASSIVE + "增加伤害，可叠加伤害",
+                    ThemeUtils.PASSIVE + "给生物"
             );
 
     public static final SlimefunItemStack PROP_SHARP12 =
@@ -755,9 +755,9 @@ public final class Props {
                     "PROP_SHARP12",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Sharp 1 II",
-                    ThemeUtils.PASSIVE + "What a bad naming convention. +Damage",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:锐利 II",
+                    ThemeUtils.PASSIVE + "增加伤害，叠加伤害给生物",
+                    ThemeUtils.ITEM_TYPEDESC + "提交者:" + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_SHARP2 =
@@ -765,9 +765,9 @@ public final class Props {
                     "PROP_SHARP2",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Sharp 2",
-                    ThemeUtils.PASSIVE + "Gives increased damage, stacks with",
-                    ThemeUtils.PASSIVE + "mods and other properties."
+                    "合金模块:Sharp 2",
+                    ThemeUtils.PASSIVE + "增加伤害，可叠加伤害",
+                    ThemeUtils.PASSIVE + "给生物"
             );
 
     public static final SlimefunItemStack PROP_SOFT =
@@ -775,8 +775,8 @@ public final class Props {
                     "PROP_SOFT",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Soft",
-                    ThemeUtils.PASSIVE + "Durability loss +100%, tool EXP +50%."
+                    "合金模块:柔软",
+                    ThemeUtils.PASSIVE + "耐久性损失+100%，工具经验+50%"
             );
 
     public static final SlimefunItemStack PROP_SOFT2 =
@@ -784,9 +784,9 @@ public final class Props {
                     "PROP_SOFT2",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Soft II",
-                    ThemeUtils.PASSIVE + "Durability loss +100%, tool EXP +100%.",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:柔软 II",
+                    ThemeUtils.PASSIVE + "耐久性损失+100%，工具经验+100%",
+                    ThemeUtils.ITEM_TYPEDESC + "提交者:" + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_SOFTTOUCH =
@@ -794,8 +794,8 @@ public final class Props {
                     "PROP_SOFTTOUCH",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Soft Touch",
-                    ThemeUtils.PASSIVE + "You feel lighter."
+                    "合金模块:轻触",
+                    ThemeUtils.PASSIVE + "你感觉轻松了"
             );
 
     public static final SlimefunItemStack PROP_SOFTTOUCH2 =
@@ -803,9 +803,9 @@ public final class Props {
                     "PROP_SOFTTOUCH2",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Soft Touch II",
-                    ThemeUtils.PASSIVE + "The ground is no obstacle. No fall damage.",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:轻触 II",
+                    ThemeUtils.PASSIVE + "无坠落伤害",
+                    ThemeUtils.ITEM_TYPEDESC + "提交者:" + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_SPRINGS =
@@ -813,8 +813,8 @@ public final class Props {
                     "PROP_SPRINGS",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Springs",
-                    ThemeUtils.PASSIVE + "Makes you jump higher."
+                    "合金模块:弹簧",
+                    ThemeUtils.PASSIVE + "让你跳得更高"
             );
 
     public static final SlimefunItemStack PROP_STABILITY =
@@ -822,8 +822,8 @@ public final class Props {
                     "PROP_STABILITY",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Stability",
-                    ThemeUtils.PASSIVE + "Does... nothing!"
+                    "合金模块:稳定",
+                    ThemeUtils.PASSIVE + "没有什么"
             );
 
     public static final SlimefunItemStack PROP_STABILITY2 =
@@ -831,9 +831,9 @@ public final class Props {
                     "PROP_STABILITY2",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Stability",
-                    ThemeUtils.PASSIVE + "Yup, still does nothing.",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:稳定 IE",
+                    ThemeUtils.PASSIVE + "是的，什么也不做",
+                    ThemeUtils.ITEM_TYPEDESC + "提交者:" + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_STAINLESS =
@@ -841,8 +841,8 @@ public final class Props {
                     "PROP_STAINLESS",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Stainless",
-                    ThemeUtils.PASSIVE + "The tool/weapon repels blood."
+                    "合金模块:不锈钢",
+                    ThemeUtils.PASSIVE + "工具/武器排斥血液"
             );
 
     public static final SlimefunItemStack PROP_STIFF =
@@ -850,8 +850,8 @@ public final class Props {
                     "PROP_STIFF",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Stiff",
-                    ThemeUtils.PASSIVE + "Damage +50% but makes you unlucky"
+                    "合金模块:僵硬",
+                    ThemeUtils.PASSIVE + "损伤+50%，但让你不幸"
             );
 
     public static final SlimefunItemStack PROP_STINGOFGONDOLIN =
@@ -859,9 +859,9 @@ public final class Props {
                     "PROP_STINGOFGONDOLIN",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Sting of Gondolin",
-                    ThemeUtils.PASSIVE + "All nearby, hostile, mobs are repelled.",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:刺痛",
+                    ThemeUtils.PASSIVE + "所有附近的，敌对的，动物都被击退.",
+                    ThemeUtils.ITEM_TYPEDESC + "提交者:" + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_STUDIOUS =
@@ -869,9 +869,9 @@ public final class Props {
                     "PROP_STUDIOUS",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Studious",
-                    ThemeUtils.PASSIVE + "Tool and Player exp +50% but damage halved",
-                    ThemeUtils.PASSIVE + "and you are slower to act."
+                    "合金模块:学习",
+                    ThemeUtils.PASSIVE + "T工具和玩家经验+50%，但伤害减半",
+                    ThemeUtils.PASSIVE + "但会让你缓慢"
             );
 
     public static final SlimefunItemStack PROP_SUPERLIGHTWEIGHT =
@@ -879,8 +879,8 @@ public final class Props {
                     "PROP_SUPERLIGHTWEIGHT",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Super Lightweight",
-                    ThemeUtils.PASSIVE + "Makes you lighter than air when not sneaking."
+                    "合金模块:超轻量",
+                    ThemeUtils.PASSIVE + "空气比你还轻"
             );
 
     public static final SlimefunItemStack PROP_SUPERLIGHTWEIGHT2 =
@@ -888,9 +888,9 @@ public final class Props {
                     "PROP_SUPERLIGHTWEIGHT2",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Super Lightweight II",
-                    ThemeUtils.PASSIVE + "Makes you lighter than air when you ARE sneaking.",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:超轻量 II",
+                    ThemeUtils.PASSIVE + "空气比你还轻",
+                    ThemeUtils.ITEM_TYPEDESC + "提交者:" + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_TRICKS =
@@ -898,9 +898,9 @@ public final class Props {
                     "PROP_TRICKS",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Tricks",
-                    ThemeUtils.PASSIVE + "Plays nasty tricks on nearby things.",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:诡计",
+                    ThemeUtils.PASSIVE + "在附近的东西上耍把戏",
+                    ThemeUtils.ITEM_TYPEDESC + "提交者:" + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_TUFFSTUFF =
@@ -908,9 +908,9 @@ public final class Props {
                     "PROP_TUFFSTUFF",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Tuff Stuff",
-                    ThemeUtils.PASSIVE + "Knocks back anything hit with a chance",
-                    ThemeUtils.PASSIVE + "to stun."
+                    "合金模块:凝灰岩",
+                    ThemeUtils.PASSIVE + "有几率打晕"
+
             );
 
     public static final SlimefunItemStack PROP_VAMPIRISM =
@@ -918,9 +918,9 @@ public final class Props {
                     "PROP_VAMPIRISM",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Vampirism",
-                    ThemeUtils.PASSIVE + "Chance to heal by damage given.",
-                    ThemeUtils.PASSIVE + "Damage dealt varies by time of day."
+                    "合金模块:吸血",
+                    ThemeUtils.PASSIVE + "有几率因受伤而愈合",
+                    ThemeUtils.PASSIVE + ""
             );
 
     public static final SlimefunItemStack PROP_VOIDMINER =
@@ -928,9 +928,9 @@ public final class Props {
                     "PROP_VOIDMINER",
                     SkullTextures.PROPERTIES_INFINITY,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Void Miner",
-                    ThemeUtils.PASSIVE + "Randomly generates ores while mining/digging.",
-                    ThemeUtils.ITEM_TYPEDESC + "Added by: " + ThemeUtils.ADD_INFINITY + "Infinity Expansion"
+                    "合金模块:空洞矿工",
+                    ThemeUtils.PASSIVE + "在采矿/挖掘时随机生成矿石",
+                    ThemeUtils.ITEM_TYPEDESC + "提交者:" + ThemeUtils.ADD_INFINITY + "无尽科技"
             );
 
     public static final SlimefunItemStack PROP_WEAK =
@@ -938,8 +938,8 @@ public final class Props {
                     "PROP_WEAK",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Growth",
-                    ThemeUtils.PASSIVE + "You feel weak."
+                    "合金模块:虚弱",
+                    ThemeUtils.PASSIVE + "你感到虚弱"
             );
 
     public static final SlimefunItemStack PROP_WORKS =
@@ -947,8 +947,8 @@ public final class Props {
                     "PROP_WORKS",
                     SkullTextures.PROPERTIES_CORE,
                     ThemeUtils.ThemeItemType.PROP,
-                    "Property: Works",
-                    ThemeUtils.PASSIVE + "No special effects."
+                    "合金模块:虚无",
+                    ThemeUtils.PASSIVE + "没有特别的影响"
             );
 
     // endregion

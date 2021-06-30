@@ -13,7 +13,7 @@ import java.util.List;
 public class GiveDummyTool extends AbstractCommand {
 
     public GiveDummyTool() {
-        super("givetool", "gives tool set", true);
+        super("givetool", "给予工具设置", true);
     }
 
     @Override

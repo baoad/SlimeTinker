@@ -23,7 +23,7 @@ public class DropItemListener implements Listener {
 
         if (ItemUtils.getToolRodMaterial(itemStack.getItemMeta().getPersistentDataContainer()).equals(IDStrings.SOLDER)) {
             event.setCancelled(true);
-            event.getPlayer().sendMessage(ThemeUtils.WARNING + "This tool is fused.");
+            event.getPlayer().sendMessage(ThemeUtils.WARNING + "这个工具融合了");
         }
 
     }

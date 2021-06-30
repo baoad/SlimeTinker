@@ -26,11 +26,11 @@ public final class Workstations {
                     "TINKERS_SMELTERY_CORE",
                     Material.CHISELED_POLISHED_BLACKSTONE,
                     ThemeUtils.ThemeItemType.MACHINE,
-                    "Tinker's Smeltery",
-                    "Melts down metals into liquids.",
-                    "Metals can then be alloyed and",
-                    "cast out into various forms.",
-                    "Requires lava as fuel"
+                    "匠魂冶炼厂",
+                    "将金属熔化成液体",
+                    "让金属可以合金化",
+                    "可打造成各种形式",
+                    "需要岩浆作为燃料"
             );
 
     // Workbench
@@ -39,11 +39,10 @@ public final class Workstations {
                     "TINKERS_WORKBENCH",
                     Material.FLETCHING_TABLE,
                     ThemeUtils.ThemeItemType.MACHINE,
-                    "Tinker's Workbench",
-                    "Used for crafting various items",
-                    "and parts for Tinker's tools and",
-                    "constructions. Also acts as an",
-                    "Enhanced Crafting Table."
+                    "匠魂工作台",
+                    "用于制作各种物品",
+                    "和匠魂工具的部件"
+
             );
 
     // Table
@@ -52,8 +51,8 @@ public final class Workstations {
                     "TINKERS_TABLE",
                     Material.SMITHING_TABLE,
                     ThemeUtils.ThemeItemType.MACHINE,
-                    "Tinker's Table",
-                    "Combines parts into tools."
+                    "匠魂合成台",
+                    "将零件组合成工具"
             );
 
     // Repair
@@ -62,8 +61,8 @@ public final class Workstations {
                     "TINKERS_REPAIR_BENCH",
                     Material.CARTOGRAPHY_TABLE,
                     ThemeUtils.ThemeItemType.MACHINE,
-                    "Tinker's Repair Bench",
-                    "Repairs tools and weapons."
+                    "匠魂维修工作台",
+                    "维修工具和武器"
             );
 
     // Swapping
@@ -72,8 +71,8 @@ public final class Workstations {
                     "TINKERS_SWAPPING_STATION",
                     Material.SCAFFOLDING,
                     ThemeUtils.ThemeItemType.MACHINE,
-                    "Tinker's Swapping Station",
-                    "Swaps parts of tools with new parts."
+                    "匠魂交换台",
+                    "将工具的一部分与新部件互换"
             );
 
     // Modification
@@ -82,8 +81,8 @@ public final class Workstations {
                     "TINKERS_MOD_STATION",
                     Material.GRINDSTONE,
                     ThemeUtils.ThemeItemType.MACHINE,
-                    "Tinker's Modification Station",
-                    "Applies modifications to tools and weapons."
+                    "匠魂修改台",
+                    "对工具和武器进行修改"
             );
 
     protected static final ItemStack[] RECIPE_TINKERS_SMELTERY_MULTI = new ItemStack[] {
